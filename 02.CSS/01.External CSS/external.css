@@ -1,0 +1,33 @@
+
+h1{
+    color: aqua;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: large;
+}
+ #first{
+    background-color: aqua;
+    color: red;
+}
+#second{
+    color: blueviolet;
+}
+#first:hover{
+    color: aqua;
+    background-color: red;
+}
+/* a:hover{
+    color: brown;
+} */
+.link:hover{
+    color: black;
+}
