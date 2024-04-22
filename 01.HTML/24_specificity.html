@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+
+    <style>
+        h2{
+            color: aqua;
+        }
+        .first{
+            color: aquamarine;
+        }
+        #second{
+            color: blue;
+        }
+        h2{
+            /* color: chartreuse !important; */
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2 class="first" id="second" style="color: red;" >Lorem ipsum dolor sit amet.</>
+    
+</body>
+</html>
