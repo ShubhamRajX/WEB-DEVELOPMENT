@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    /* it use to make distance between two box  */
+    margin: 10px;
+    /* it is use to make distance between the border and text  */
+    padding: 25px; 
+}
+#org
+{
+    background-color: orange;
+}
+#wht{
+    background-color: white;
+}
+#grn{
+    background-color: green;
+}
