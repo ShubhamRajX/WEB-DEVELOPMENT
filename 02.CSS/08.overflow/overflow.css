@@ -1,0 +1,31 @@
+.fourth{
+    margin: 10px;
+    border: 2px dotted red;
+    height: 100px;
+    width: 100px;
+    overflow: visible;
+}
+.second{
+    margin-top: 10px;
+    border: 2px dotted black;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.third{
+    margin-top: 10px;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    overflow: scroll;
+}
+.first{
+    margin-top: 10px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    /* auto is both visible/scroll 
+    visible--text is limited or less
+    scroll--text is more than limit */
+    overflow: auto;
+}
