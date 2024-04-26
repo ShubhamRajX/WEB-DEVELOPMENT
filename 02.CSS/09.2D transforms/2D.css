@@ -1,0 +1,44 @@
+div{
+    width: 80px;
+    height: 30px;
+}
+.a{
+    background-color: antiquewhite;
+    transform: translate(100px ,50px);
+}
+.b{
+    background-color:blue;
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+    transform: rotate(-105deg)
+}
+.c{
+    background-color: rgb(228, 137, 19);
+    /* transform: scale(1,2); */
+    transform: scale(0.5,3);
+}
+.d{
+    background-color: rgb(120, 124, 216);
+    /* transform: scaleX(2); */
+    transform: scaleX(8);
+}
+.e{
+    background-color: orange;
+    /* transform: scaleY(2); */
+    transform: scaleY(0.2);
+}
+.f{
+    background-color: pink;
+    /* transform: skew(95deg); */
+    transform: skew(45deg);
+}
+.g{
+    background-color: red;
+    transform: skewX(95deg);
+    transform: skewX(-30deg);
+}
+.h{
+    background-color: skyblue;
+    /* transform: skewY(75deg); */
+    transform: skewY(30deg);
+}
