@@ -1,0 +1,23 @@
+h1{
+    text-shadow: 2px 2px 3px red;
+    /* multiple shadows */
+    text-shadow: 2px 2px 3px red , 5px 5px 5px green;
+    /* by giving -ve value of 1st and 2nd element ,you can change the 
+    direction of shadows */
+    text-shadow: 2px -2px 3px red , 5px -5px 5px green;
+}
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    /* by default color of box shadow is same as color of text  */
+    /* also add color for differnt color of text & shadow  */
+    box-shadow: 10px 10px 10px greenyellow;
+    color: red;
+    font-size:150%;
+    /* mutiple shadows */
+    box-shadow: 10px 10px 10px greenyellow,15px 15px 15px brown;
+    /* by giving -ve value of 1st and 2nd element ,you can change the 
+    direction of shadows */
+    box-shadow: -10px 10px 10px greenyellow,-15px 15px 15px brown;
+}
