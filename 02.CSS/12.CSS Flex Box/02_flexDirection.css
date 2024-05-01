@@ -1,0 +1,23 @@
+.container{
+    height: 200px;
+    width: 250px;
+    border: 2px solid green;
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+.box1{
+    border: 1px solid red;
+    /* flex-direction: column; */
+}
+.box2{
+    border: 1px solid aqua;
+    /* flex-direction: row; */
+}
+.box3{
+    border: 1px solid aqua;
+    /* flex-direction: row-reverse; */
+}
+.box4{
+    border: 1px solid aqua;
+    flex-direction: column-reverse;
+}
