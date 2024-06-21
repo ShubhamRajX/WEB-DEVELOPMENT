@@ -1,0 +1,56 @@
+@font-face{
+    font-family: rubik;
+    src: url(../Rubik/Rubik-VariableFont_wght.ttf);
+}
+.container{
+    border-radius: 20px;
+    width: 450px;
+    height: 380px;
+    margin: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    font-family:rubik;
+    padding: 20px 10px 0 20px;
+}
+img{
+    height: 240px;
+    width: 440px;
+    border-radius: 20px;
+}
+p{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+hr{
+    color: rgb(24, 20, 20);
+    width: 85%;
+    float: left;
+}
+#div{
+    margin-top: 8px;
+}
+#price{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    color:rgb(102, 116, 204);
+    padding-right: 8px;
+}
+#realPrice{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(119, 124, 133);
+    padding-right: 8px;
+}
+#offer{
+    background-color: rgb(40, 161, 149);
+    color:white;
+    padding: 4px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
