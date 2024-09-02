@@ -1,0 +1,59 @@
+.flex{
+    /* height: 50px; */
+    width: 70px;
+    border: 1px solid red;
+    display: flex;
+    background-color: azure;
+    color: cadetblue;
+}
+.start{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: start;
+}
+.end{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: end;
+}
+.center{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+.stretch{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: stretch;
+}
+/* to arrange base in same line */
+.baseline{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: baseline;
+}
+.mid{
+    height: 250px;
+    width: 350px;
+    border: 2px double blue;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
