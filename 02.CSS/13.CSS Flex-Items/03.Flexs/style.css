@@ -1,0 +1,29 @@
+.flex{
+    height: 300px;
+    width: 350px;
+    background-color: yellow;
+    border: 2px solid red;
+    display: flex;
+}
+.box{
+    /* height: 20px; */
+    /* width: 30px; */
+    background-color: antiquewhite;
+    border: 1px dotted black;
+
+    flex-basis: content;
+}
+#box1{
+    /* flex-basis: content; */
+    /* flex: 2 2 1 content; */
+    align-self: flex-start;
+}
+#box2{
+    align-self: end;
+}
+#box3{
+    align-self: stretch;
+}
+#box4{
+    align-self: center;
+}
