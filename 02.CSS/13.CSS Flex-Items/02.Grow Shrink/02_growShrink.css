@@ -1,0 +1,30 @@
+.flex{
+    height: 20px;
+    width: 60px;
+    background-color: antiquewhite;
+    border: 1px solid red;
+    display: flex;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+.grow{
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    border: 2px double black;
+    justify-content: center;
+    display: flex;
+}
+#box1{
+    order: 1;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+#box2{
+    order: 5;
+    /* flex-grow: 1; */
+}
+#box3{
+    order: 3;
+    /* flex-grow: 1; */
+}
