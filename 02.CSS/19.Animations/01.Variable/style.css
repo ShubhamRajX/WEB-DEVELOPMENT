@@ -1,0 +1,28 @@
+:root{
+    --dark-red:#981a2c;    
+    --dark-blue:#2d39b9;    
+
+}
+.container{
+    border: 2px solid black;
+    background-color: aliceblue;
+
+    background-color: var(--dark-blue);
+    height: 300px;
+    width: 300px;
+}
+.box{
+    border: 3px solid red;
+    background-color: aquamarine;
+
+    /* background-color: var(--dark-blue); */
+
+    color: yellowgreen;
+    
+
+    color: var(--dark-red);
+    --dark-yellow:rgb(195, 14, 150);
+
+    color: var(--dark-yellow);
+    
+}
