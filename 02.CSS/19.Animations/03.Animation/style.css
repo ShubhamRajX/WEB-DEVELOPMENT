@@ -1,0 +1,56 @@
+.container{
+    height: 215px;
+    width: 100%;
+    border: 2px solid tan;
+    background-color: teal;
+}
+.text{
+    color: black;
+    font-size: 200%;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    margin-top: 75px;
+}
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+
+    animation-name: raj;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+
+    /* animation-fill-mode: backwards; */
+}
+@keyframes raj{
+    0%{
+        width: 212px;
+        background-color: aquamarine;
+    }
+    35%{
+        width: 400px;
+        background-color: blanchedalmond;
+    }
+    70%{
+        width: 700px;
+        background-color: goldenrod;
+    }
+    100%{
+        width: 1000px;
+        background-color: whitesmoke;
+    }
+}
+
+/* @keyframes raj{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+} */
