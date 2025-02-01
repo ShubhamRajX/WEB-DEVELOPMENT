@@ -59,5 +59,4 @@ console.log(val1);
 // condition ? true : false
 
 const teaPrice = 100
-
 teaPrice <= 60 ? console.log('Affodable') : console.log('Expensive');
