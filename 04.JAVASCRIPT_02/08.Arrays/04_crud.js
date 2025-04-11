@@ -33,6 +33,7 @@ let fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 
 
 //! SPLICE(Element)
+//*  what if, we want to add or remove anywhere in an elements - p2
 //* splice(start, deleteCount, item1, item2, /*...itemN*/); // Adds/removes items to/from an array, and returns the removed item(s)
 
 // console.log(fruits.splice(1)); // ['banana', 'orange', 'grape']
@@ -48,6 +49,7 @@ let fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 // fruits.splice(fruits.length, 0, 'mango'); // Adds 'banana' at index 1 without removing any elements
 // console.log(fruits);
 
+//? what if you want to add the element at the end
 fruits.splice(1, 0, 'mango', 'stawberry'); // Adds 'banana' at index 1 without removing any elements   
 console.log(fruits); // ['apple', 'mango', 'banana', 'orange', 'grape']
 
