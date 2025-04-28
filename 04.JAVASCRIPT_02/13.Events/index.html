@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button{
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5rem;
+            background-color: bisque;
+            color: red;
+        }
+        h1{
+            color: #b70c7b;
+        }
+    </style>
+</head>
+<body>
+
+   
+        <h1>Inline Event</h1>
+        <button onclick="alert('Welcome')" >greeting</button>
+        <button ondblclick="alert('Welcome Back')">greeting again</button>
+        <button onmouseover="alert('hey!')">hover</button>
+        
+        
+        <h1>Dom Event Handler</h1>
+        <button id="mybtn">greeting</button>
+        <button id="mybtn2">greeting again</button>
+        <button id="mybtn3">greeting</button>
+
+        <H1>addEventListener Event</H1>
+        <button id="btn1">greeting</button>
+        <button id="btn2">greeting again</button>
+        <button id="btn3">greeting</button>
+   
+    <script>
+        // document.getElementById("mybtn").onclick= () => {
+        //     alert('Welcome');
+        // }
+        document.getElementById("mybtn").onclick = function() {
+            alert('welcome!')
+        }
+        document.getElementById("mybtn2").ondblclick = () => {
+            alert('Double clicked!')
+        }
+        document.getElementById("mybtn3").onmouseover = function(){
+            alert('Mouse over!')
+        }
+
+        document.getElementById("btn1").addEventListener('click', function(){
+            alert("clicked!");
+        } );
+        document.getElementById("btn2").addEventListener('dblclick', ()=>{
+            alert("double clicked!");
+        } );
+        document.getElementById("btn3").addEventListener('mouseover', function(){
+            alert("Mouse over!");
+        } );
+
+    </script>
+</body>
+</html>
