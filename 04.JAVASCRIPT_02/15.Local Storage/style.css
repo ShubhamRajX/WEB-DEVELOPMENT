@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+button{
+    border-radius: 50px;
+    background-color: rgb(158, 201, 187);
+    margin: 20px;
+}
+button:hover{
+    transform: scale(1.2);
+    color: rgb(57, 195, 193);
+    background-color: blanchedalmond;
+}
