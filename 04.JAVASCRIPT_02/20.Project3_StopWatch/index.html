@@ -5,52 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
 
-    <style>
-         * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        html {
-          color: #fff;
-          font-size: 62.5%;
-        }
-
-        body {
-          height: 100vh;
-          background-color: #3b4156;
-          font-family: "Urbanist", sans-serif;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .box{
-            width: 90%;
-            max-width: 500px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            justify-content: center;
-            width: 72rem;
-            background-color: bisque;
-            padding: 30px 50px;
-            border-radius: 15px;
-            border: 3px solid rgb(0, 97, 233);
-        }
-
-        .mainDiv{
-            width: 100%;
-            text-align: center;
-        }
-        #clock{
-            font-size: 5rem;
-            color: red;
-        }
-
-    </style>
 </head>
 <body>
 
@@ -62,18 +18,7 @@
         </div>
     </div>
     
-    <script>
-        const currentTime = () => {
-            let curTime = new Date().toLocaleTimeString();
-            document.getElementById("clock").innerHTML = curTime;
-        };
-        currentTime();
-
-        const intervalId = setInterval(() => {
-            currentTime();
-        }, 1000);
-        setTimeout( () => clearInterval(intervalId), 5000);
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
